@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://<user>:<password>@cluster0-rxrto.mongodb.net/bancotest?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<user>:<password>@<cluster>', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
